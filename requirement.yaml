@@ -1,0 +1,14 @@
+project: Example app
+spec:
+  - runtime: node
+    runtime_version: 17.10
+    env:
+      MY_SECRET: thisismysecret
+      MY_API_KEY: rueqio9142831hfkanjfn93824456
+    volume:
+      - path: /tmp
+  - database: mysql
+    database_version: 5.7
+    env:
+      MYSQL_USER: exampleuser
+      MYSQL_PASSWORD: examplepassword
