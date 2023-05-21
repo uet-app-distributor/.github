@@ -15,4 +15,17 @@ App Distributor Platform provides several features:
     - Provide logs, dashboards, and monitor for Platform infrastructures
 
 Administrators only need to update the `requirement.yaml` file, then the platform will provision and manage the rest.
+
+## Technology stack
+- Kubernetes: manage containerized applications
+- Elastic Search - Logstash - Kibana (ELK) stack: monitor application logs
+- Gitlab - Gitlab CI: source code repository and CICD platform
+- Terraform: provisions infrastructure
+- Ansible: install, update, remove open-source applications
+
+## User workflow
+- Prepare application code on a source control system
+- Access UET App Distributor Platform Portal to manually trigger application deployment
+-  
+
 ## Approach
